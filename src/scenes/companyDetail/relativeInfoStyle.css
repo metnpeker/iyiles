@@ -1,0 +1,58 @@
+.mb-3 {
+  border: 2px solid #f68a25;
+  border-radius: 5px;
+  font-color: red;
+  font-size: 14px;
+  font-weight: bold;
+  color: #CCCCCC;
+}
+.enterButton {
+ border: 2px solid #89F5FF;
+ background-color: #F8F8F8;
+ box-shadow: 0px 0px 5px #89F5FF;
+ font-weight: bold;
+ margin: 0 auto;
+}
+.dropdown{
+  width: 100%;
+}
+.orangeButton {
+  background-color: #F68A25; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10%;
+}
+.orangeButton:hover {
+  background-color: #F68A25; /* Green */
+ color: white ;
+}
+.informationContainer {
+  border-radius: 18px;
+  border-width: 2px;
+  box-shadow: 0px 0px 5px #89F5FF;
+  border-color: #89F5FF;
+  border-style: solid;
+  background-color: #F8F8F8;
+  margin-top: 2vh;
+}
+.informationContainer:first{
+  margin-bottom: 10vh;
+}
+
+.orangeButtonUserProfile {
+  background-color: #F68A25;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  margin: 1%;
+}
+
+.marginBox {
+  margin-bottom: 1%;
+}

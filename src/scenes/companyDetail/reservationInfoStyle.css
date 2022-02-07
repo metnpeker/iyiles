@@ -1,0 +1,105 @@
+.react-datepicker-wrapper, .react-datepicker__input-container{
+  width: 100%;
+}
+.invalid-feedback-custom{
+  width: 100%;
+  margin-top: .25rem;
+  font-size: 80%;
+  color: #dc3545;
+}
+.reservationContainer {
+  width: 80%;
+  border-radius: 18px;
+  border-width: 2px;
+  box-shadow: 0px 0px 5px #89F5FF;
+  border-color: #89F5FF;
+  border-style: solid;
+  background-color: #FFFFFF;
+  margin-top : 1%;
+}
+
+.reservationDetailRow {
+  justify-content: center;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+.informationContainer {
+  border-radius: 18px;
+  border-width: 2px;
+  box-shadow: 0px 0px 5px #89F5FF;
+  border-color: #89F5FF;
+  border-style: solid;
+  background-color: #F8F8F8;
+  margin-top: 2vh;
+}
+.informationContainer:first{
+  margin-bottom: 10vh;
+}
+
+.destination_p{
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+.informationDetailRow {
+  justify-content: center;
+  margin-top: 20px;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+.orangeButton {
+  background-color: #F68A25; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.orangeButton:hover {
+  background-color: #F68A25; /* Green */
+ color: white ;
+}
+
+.destination-col{
+  border-bottom: none;
+}
+@media (max-width: 767px){
+  .destination-col{
+    border-bottom: 1px solid lightgray;
+    margin: 1em auto;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .informationDetailRow {
+    justify-content: center;
+    margin: 0;
+    margin-top: 20px;
+  }
+}
+.classic_time active light {
+  background-color: #89F5FF;
+}
+
+.form-control:focus {
+  border-color: #F68A25;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #F68A25;
+}
+
+.form-control::-webkit-input-placeholder { color: #CCCCCC; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: #CCCCCC; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: #CCCCCC; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: #CCCCCC; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: #CCCCCC; }  /* Microsoft Edge */
+
+.myPopperClassName {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.8rem;
+    background-color: #fff;
+    color: #000;
+    border: 0px ;
+    border-radius: 0.3rem;
+    display: inline-block;
+    position: relative;
+}

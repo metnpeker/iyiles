@@ -1,0 +1,29 @@
+.landingTitle {
+  text-align: center;
+  margin:auto;
+}
+.landingInformationCard div{
+  padding: 10px 5px;
+  height: auto;
+  text-align: center;
+  margin-top : 5%;
+}
+.landingInformationCard i{
+  background: #ffffff;
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+  border-radius: 50%;
+  border : 1px solid #06005B;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+}
+.landingInformationCard p{
+  font-size: 20px;
+  line-height: 1.5em;
+  font-family: 'Open', sans-serif;
+  position: absolute;
+  top: 50%;
+
+}

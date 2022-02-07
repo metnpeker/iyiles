@@ -1,0 +1,55 @@
+
+  .profile-tabs  .nav-tabs{
+    border-bottom: none;
+    margin-bottom: 1em;
+  }
+  .profile-tabs > .nav-tabs .nav-link{
+    border: none;
+    border-bottom: 2px solid var(--dark-navy-blue);
+  }
+  .profile-tabs  .nav-tabs a{
+    font-weight: bold;
+    color: var(--dark-navy-blue);
+    margin: 0 auto;
+
+  }
+  .profile-tabs  .nav-tabs .nav-link.active{
+    color: var(--main-orange);
+    border-bottom: 2px solid var(--main-orange);
+  }
+  .profile-tabs  .nav-tabs .nav-link.active{
+    color: var(--main-orange);
+    border-bottom: 2px solid var(--main-orange);
+  }
+  .profile-tabs  .nav-tabs  .nav-link.active::after {
+    display: none;
+  }
+.profileFormContainer {
+   background-color: #F8F8F8;
+   padding : 3%;
+}
+.formBox input {
+  border: 2px solid #F68A25;
+  background-color: #FFFFFF;
+  border-radius: 11px;
+  height : auto;
+  color :#03002D;
+}
+.profileFormRow {
+  margin-top: 3%;
+}
+.orangeButton {
+  background-color: #F68A25; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 5%;
+}
+.orangeButton:hover {
+  background-color: #F68A25; /* Green */
+ color: white ;
+}

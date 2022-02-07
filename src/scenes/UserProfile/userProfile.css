@@ -1,0 +1,189 @@
+.profile-layout{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+.formBox input,.formBox select{
+border-radius: 7px;
+border-color: #F68A25;
+border-width: 2px;
+border-style: solid;
+background: white;
+
+}
+.nameInCircle {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  text-align : center;
+  background-color:#F68A25;
+  color: white;
+  padding: 10px;
+  margin: 5%;
+}
+.patient-info-style{
+  font-weight: bold;
+  color: #31D863;
+  text-decoration: underline;
+}
+.patient-body-style{
+  font-family: Open, sans-serif;
+  color: #707070;
+}
+.patient-header-style{
+  font-weight: bold;
+  color: #707070;
+  font-family: Open, sans-serif;
+}
+.accordionHeader {
+  background-color: white;
+  font-size: 22px;
+  color : #707070;
+  border-radius: 11px;
+  margin-top: 1%;
+}
+.collapseElementContainer {
+  background: white;
+  padding: 1%;
+}
+
+.orangeButtonUserProfile {
+  background-color: #F68A25;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  margin: 1%;
+}
+
+.orangeButtonUserProfile:hover {
+  background-color: #F68A25; /* Green */
+ color: white ;
+}
+
+.show>.btn-primary.dropdown-toggle {
+background-color: #F68A25;
+
+}
+.show dropdown {
+  background-color: #F68A25;
+}
+.checkoutDetailRow {
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.checkDetailRow {
+  justify-content: center;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.card-year{
+  margin-top: 6%;
+}
+.card-date{
+  display: flex;
+  align-items: flex-end;
+}
+.patientContainer {
+  width: 90%;
+  border-radius: 18px;
+  border-width: 2px;
+  border-color: #F68A25;
+  border-style: solid;
+  background-color: #F8F8F8;
+  margin-top : 10%;
+  margin-bottom: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+.reservationCard {
+  border-radius: 11px;
+  border-color: #F68A25;
+  border-width: 2px;
+  border-style: solid;
+  background: white;
+  padding: 3%;
+  margin-top : 2%;
+}
+
+.commentCard {
+  border-radius: 11px;
+  border-color: #F68A25;
+  border-width: 2px;
+  border-style: solid;
+  background: white;
+  padding: 3%;
+  margin-top : 2%;
+  width: 40%;
+  margin-left: 30%;
+}
+.reservationCardTitle {
+  color : #31D863;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 2%;
+}
+.patient-card{
+  border: 1px solid red;
+}
+.moreInformationP {
+  text-align: center;
+  color : #F68A25;
+  text-decoration: underline;
+  font-size: 15px;
+  font-weight:bold;
+  margin-top: 2%;
+}
+
+.newForm {
+  display: none;
+}
+
+.selectPatient {
+  width: 50%;
+  border: 1px solid red;
+}
+
+.accordion>.card:first-of-type, .accordion>.card:not(:first-of-type):not(:last-of-type), .accordion>.card:last-of-type {
+    margin-top: 1em;
+    border: 2px solid #57F1FF;
+    border-radius: 10px;
+}
+.patient-select-dropdown{
+  border: 2px solid #F68A25;
+  width: 30%;
+  margin-left: 1.25em;
+  border-radius: 0.25em;
+  margin-top: 20px
+}
+
+@media (max-width: 768px){
+  .commentCard {
+    width : 100%;
+    margin-left: 0px;
+    margin-top : 25%;
+  }
+
+  .profile-layout{
+    width: 100%;
+  }
+
+  .reservation-detail-accordion{
+    padding: 0.25rem 0.75rem;
+    text-align: center;
+  }
+  .accordion>.card:first-of-type, .accordion>.card:not(:first-of-type):not(:last-of-type), .accordion>.card:last-of-type {
+    border: 1px solid rgba(0,0,0,.125);
+}
+.patient-select-dropdown{
+  border: 2px solid #F68A25;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 0.25em;
+  margin-top: 20px
+}
+
+}

@@ -1,0 +1,45 @@
+
+.headerComponent {
+  background-color: #F8F8F8;
+  width: 100%;
+ height:auto;
+  color : #03002D;
+  margin: 0;
+}
+.headerComponent img{
+  height: auto;
+  width: 150px;
+}
+
+.headerLogo {
+  float : left;
+  margin-left: 5%;
+}
+.navbarStyle {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+
+}
+.navbarStyle .navbar-nav{
+  width: 100%;
+}
+.navbarStyle .nav-item{
+  color : #03002D;
+  padding: 2% 0 2% 2%;
+  margin-left: 3%;
+  line-height:1;
+}
+.navbarStyle .nav-link{
+  color : #03002D;
+}
+.navbarStyle .nav-link.active::after {
+  display: none;
+}
+.logout-user {
+  font-size: 15px;
+  font-style: italic;
+  border: 1px solid var(--main-orange);
+  border-radius: 11px;
+  background-color: white;
+}

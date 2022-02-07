@@ -1,0 +1,80 @@
+.ambulanceContainer {
+    margin-top: 10%;
+    border-radius: 11px;
+    border-color: #89F5FF;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 0px 0px 5px #89F5FF;
+    background: white;
+    padding-top:3%;
+    padding-bottom: 3%;
+    text-align: center;
+  }
+.votingAndCommentContainer {
+  margin-top: 2%;
+  border-radius: 11px;
+  width: 90%;
+  box-shadow: 0px 0px 5px  #000000;
+  background: white;
+  padding-top:3%;
+  padding-bottom: 3%;
+  text-align: center;
+
+}
+.votingAndCommentContainerInside {
+  padding: 5%;
+  background-color: #F8F8F8 ;
+  margin-top: 3%;
+  border-radius: 11px;
+  border-color: #89F5FF;
+  border-width: 2px;
+  border-style: solid;
+  box-shadow: 0px 0px 5px #89F5FF;
+}
+.workingHoursDiv {
+  width: 70%;
+  height: auto;
+  background-color: #89F5FF;
+  font-style: italic;
+  font-size: 18px;
+  border-radius: 11px;
+  text-align: center;
+  padding :2%;
+  margin-left : 20%;
+  margin-top: 15%;
+}
+
+.colWithBorderRight {
+  margin-top: 20px;
+  border-right: 1px solid #F68A25;
+}
+.nameInCircle {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  text-align : center;
+  background-color:#F68A25;
+  color: white;
+  padding: 10px;
+}
+.buttonDiv {
+  text-align: center;
+  margin-top: 3%;
+  padding: 5px;
+}
+.orangeButton {
+  background-color: #F68A25; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10%;
+  float : none;
+}
+.orangeButton:hover {
+  background-color: #F68A25; /* Green */
+ color: white ;
+}

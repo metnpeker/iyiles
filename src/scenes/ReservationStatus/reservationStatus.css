@@ -1,0 +1,132 @@
+.exchange-alt{
+  border : 1px solid gray;
+  padding: 5px;
+  border-radius: 50%;
+
+}
+.containerWithMessage{
+  border-radius: 11px;
+  width: 50%;
+  align : center;
+  box-shadow: 0px 0px 1px #000000;
+  background: white;
+  padding-top:3%;
+  padding-bottom: 3%;
+  text-align: center;
+  margin: 5% auto;
+
+
+}
+
+.reservationInformationWithShadow {
+  position: relative;
+  padding: 10px;
+  background: white;
+  border-radius: 11px;
+  box-shadow: 0px 0px 1px #000000;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.smsConfirmDiv {
+  margin: auto;
+  margin-top: 5%;
+  background-color: white;
+  color: #707070;
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  padding: 2%;
+  border-radius: 11px;
+  width: 60%;
+  border: 1px solid #F68A25;
+}
+
+
+.owlCarouselAtReservation {
+  position: relative;
+  padding: 10px;
+  background: white;
+  margin-top: 5%;
+  width: 80%;
+  border-radius: 11px;
+  color : #707070;
+  box-shadow: 0px 0px 1px #000000;
+  text-align: center;
+}
+.ambulanceCard {
+  position: relative;
+ display: flex;
+flex-direction: column;
+min-width: 0;
+word-wrap: break-word;
+background-color: #fff;
+background-clip: border-box;
+border: 0px solid rgba(0,0,0,.125) !important;
+border-radius: .25rem;
+}
+
+.underlinedTitle {
+  text-decoration: underline;
+  text-decoration-color: #F68A25;
+  text-decoration-style:solid;
+  font-size:15px;
+}
+.resultCardTextFont {
+  font-size: 12px;
+  margin-top: 1%;
+  font-weight: bold;
+}
+.reservationInfoCard {
+position: relative;
+display: flex;
+flex-direction: column;
+min-width: 0;
+word-wrap: break-word;
+background-color: #fff;
+background-clip: border-box;
+border: 1px solid #89F5FF !important;
+border-radius: .25rem;
+}
+.reservationAppCard {
+
+position: relative;
+display: flex;
+flex-direction: column;
+min-width: 0;
+word-wrap: break-word;
+background-color: #fff;
+background-clip: border-box;
+border: 2px solid #89F5FF;
+border-radius: .50rem;
+width: 90%;
+margin: 0 auto;
+margin-top: 5%;
+}
+
+.orange-button {
+  background-color: #F68A25; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+@media only screen and (max-width: 600px) {
+  .containerWithMessage{
+    margin-top: 35% !important;
+    border-radius: 11px;
+    width: 50%;
+    align : center;
+    box-shadow: 0px 0px 1px #000000;
+    background: white;
+    padding-top:3%;
+    padding-bottom: 3%;
+    text-align: center;
+    margin: 0 auto;
+
+
+  }
+}

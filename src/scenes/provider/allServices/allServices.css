@@ -1,0 +1,24 @@
+.services-box {
+  border: 2px solid var(--main-orange);
+  background: #FFFFFF;
+  border-radius: 11px;
+  font-family: Open Sans, Regular;
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
+}
+.title-cont{
+  margin: 0 auto;
+  text-align: center;
+  color: var(--main-orange);
+  font-size: 16px;
+  font-family: Open Sans, Regular;
+  font-weight: bold;
+}
+.accordionHeader{
+  background-color: white;
+border-bottom: none;
+padding: none;
+  padding-bottom: 1em;
+  align-items: center;
+}

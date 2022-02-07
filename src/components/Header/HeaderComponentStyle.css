@@ -1,0 +1,77 @@
+.HeaderComponentWrapper{
+    background-color: #89F5FF;
+    width: 100%;
+    border-bottom-right-radius: 150%;
+    border-bottom-left-radius: 150%;
+    height: 200px;
+}
+.buttonStyle{
+  background-color: #f68a25;
+  border: none;
+  box-shadow: 0px 10px 33px -15px rgba(0,0,0,0.75);
+  color: #fff;
+  width: 120px;
+  padding: 10px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  border-radius: 1px;
+  text-shadow: 1px 3px 6px #383838;
+  margin-top : 50px;
+}
+@media only screen and (max-width: 600px) {
+  .buttonStyle {
+    background-color: #f68a25;
+    border: none;
+    box-shadow: 0px 10px 33px -15px rgba(0,0,0,0.75);
+    color: #fff;
+    width: 100px;
+    padding: 10px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    border-radius: 1px;
+    text-shadow: 1px 3px 6px #383838;
+    margin-top : 50px;
+  }
+}
+.logoStyle {
+  float: left;
+  padding: 1em 0.5em;
+  margin-left: 5%;
+  margin-top: 1em;
+  width: 200px;
+  height: 200px;
+}
+@media only screen and (max-width: 600px) {
+  .logoStyle {
+    float: left;
+    padding: 1em 0.5em;
+    margin-left: 5%;
+    margin-top: 1em;
+    width: 150px;
+    height: 150px
+  }
+}
+
+.loginButton {
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 10px 33px -15px rgba(0,0,0,0.75);
+    color: #000;
+    width: 120px;
+    padding: 15px;
+    text-transform: uppercase;
+    border-radius: 1px;
+    text-shadow: 1px 3px 6px #383838;
+}
+
+.registerButton {
+    background-color: #f68a25;
+    border: none;
+    box-shadow: 0px 10px 33px -15px rgba(0,0,0,0.75);
+    color: #fff;
+    width: 120px;
+    padding: 15px;
+    text-transform: uppercase;
+    border-radius: 1px;
+    text-shadow: 1px 3px 6px #383838;
+}

@@ -1,0 +1,44 @@
+.providerRequestHeader {
+    background-image: url(img/hero-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 12em 0;
+    text-shadow: 2px 2px 4px #838383;
+    text-align: center;
+    margin:auto;
+  }
+.formContainer {
+  border: 2px solid #06005B;
+  padding : 4%;
+  width : 50%;
+  border-radius: 11px;
+  color: #03002D;
+  font-weight: bold;
+  text-align: center;
+  margin-top : -15vh;
+  background-color: #ffffff;
+}
+.formInputArea {
+      border: 2px solid #06005B;
+      border-radius: 11px;
+
+
+}
+.orangeButton {
+  background-color: #F68A25;
+  border: none;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 5%;
+  font-weight: bold;
+}
+.orangeButton:hover {
+  background-color: #F68A25; /* Green */
+ color: white ;
+}

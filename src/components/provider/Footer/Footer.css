@@ -1,0 +1,15 @@
+.footerComponent {
+
+  width: 75%;
+  height:500px;
+  position: absolute;
+  bottom: 0 !important;
+  height: auto;
+  right: 0;
+  left: 25%;
+  text-align: center;
+  display: block;
+
+  padding-top: 1%;
+  margin-top: 5%
+}

@@ -1,0 +1,70 @@
+.wrapper{
+  border: 2px solid #F68A25;
+  box-shadow: 0px 0px 0px;
+}
+
+.information-second-detail-row{
+  justify-content: center;
+  margin-top: 20px;
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+
+.classic_theme_container .classic_time.light.active,
+.classic_theme_container .classic_time.light:hover {
+  background-color: #F68A25;
+  color: #fff;
+}
+.orangeButtonUserProfileRight {
+  background-color: #F68A25;
+  color: white;
+  padding: 1%;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  margin: 1%;
+  float: right;
+}
+.orangeButtonUserProfile {
+  background-color: #F68A25;
+  color: white;
+  padding: 1%;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  margin: 1%;
+  float: left;
+}
+.patientContainer {
+  border-radius: 18px;
+  border-width: 2px;
+  border-color: #F68A25;
+  border-style: solid;
+  background-color: #F8F8F8;
+  margin-top : 10%;
+  margin-bottom: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+
+.patientDetailRow {
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+.btn-success {
+border: 2px solid #F68A25;
+color: #CCCCCC;
+background-color: #FFFFFF;
+
+}
+
+.show>.btn-success.dropdown-toggle {
+  border: 2px solid #F68A25;
+  color: #CCCCCC;
+  background-color: #FFFFFF;
+}

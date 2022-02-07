@@ -1,0 +1,175 @@
+
+.btn:hover{
+  text-decoration: none;
+}
+.withShadow {
+  position: relative;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  padding:20px;
+  background: white;
+  margin-top: 15px;
+
+}
+.form-container{
+
+    padding: 5%;
+    margin-top: 3%;
+  margin-top: 100px;
+}
+.loginTabs{
+  border-radius: 10px;
+  border: 2px solid #89F5FF;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  width: 100%;
+
+}
+.passwordBox{
+  border-radius: 10px;
+  border: 2px solid #89F5FF;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  margin-top: 30px;
+  text-align: center;
+}
+.header-style{
+  font-family: Open, sans-serif;
+  color: #707070;
+  font-weight: bold;
+}
+.nav-tabs{
+  border: 0;
+}
+.nav-tabs .nav-link{
+  color: #CCCCCC;
+}
+.nav-tabs .nav-link.active{
+  border: 0;
+  border-bottom: 2px solid;
+  border-color: #89F5FF;
+  padding: .5rem 2rem;
+}
+.login-row{
+  margin-top: 50px;
+  width: 100%;
+}
+
+.login-col{
+  margin: 0 auto;
+  text-align: center;
+}
+.form-control{
+  border: 2px solid #f68a25;
+  border-radius: 5px;
+}
+.form-col .btn{
+  color: #707070;
+  font-weight: 700;
+}
+.form-col .btn:hover{
+  color: #89F5FF;
+}
+.orangeButton{
+  color: #fff;
+  background-color: #F68A25;
+  border-color: #F68A25;
+  margin-top: 20px;
+  padding: 10px 25px;
+}
+.orangeButton:hover{
+  background-color: #ff8009;
+  border-color: #ff8009;
+}
+
+.loginBtn {
+  box-sizing: border-box;
+  position: relative;
+  /* width: 13em;  - apply for fixed size */
+  margin: 0.2em;
+  padding: 0 15px 0 46px;
+  border: none;
+  text-align: left;
+  line-height: 34px;
+  white-space: nowrap;
+  border-radius: 0.2em;
+  font-size: 16px;
+  color: #FFF;
+}
+.loginBtn:before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 34px;
+  height: 100%;
+}
+.loginBtn:focus {
+  outline: none;
+}
+.loginBtn:active {
+  box-shadow: inset 0 0 0 32px rgba(0,0,0,0.1);
+}
+.login-icon{
+  box-shadow: 0px 2px 5px 0px grey;
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+.notRegisterButton{
+  text-indent: 10px;
+  color: #707070;
+  font-weight: 700;
+  border: 2px solid #89F5FF;
+  background-color: white;
+}
+.notRegisterButton:hover{
+  color: #89F5FF;
+}
+/* Facebook */
+.loginBtn--facebook {
+  margin-top: 10px;
+  background-color: #4C69BA;
+  background-image: linear-gradient(#4C69BA, #3B55A0);
+  /*font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;*/
+  text-shadow: 0 -1px 0 #354C8C;
+  border-color: #4C69BA;
+}
+.loginBtn--facebook:hover,
+.loginBtn--facebook:focus {
+  background-color: #5B7BD5;
+  background-image: linear-gradient(#5B7BD5, #4864B1);
+}
+/* Google */
+.loginBtn--google {
+  margin-top: 10px;
+  background-color: #D94831;
+  background-image: linear-gradient(#D94831, #b03927);
+  /*font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;*/
+  text-shadow: 0 -1px 0 #dd5f4b;
+  border-color: #D94831;
+}
+.loginBtn--google:hover,
+.loginBtn--google:focus {
+  background-color: #dd5f4b;
+  background-image: linear-gradient(#dd5f4b, #b04c3d);
+  border-color: #dd5f4b;
+}
+.login-arrow {
+  color: white;
+  margin-left: 15px;
+}
+.button-col button{
+  margin: 1em;
+}
+
+@media (max-width: 768px){
+  .loginTabs {
+    text-align: center;
+    margin-top : 50px;
+  }
+  .form-container{
+    margin-top: 150px;
+  }
+}

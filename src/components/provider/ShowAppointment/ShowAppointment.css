@@ -1,0 +1,75 @@
+
+  .show-box{
+    border: 1px solid #F68A25;
+    background: #F8F8F8;
+    border-radius: 11px;
+    margin-top: 1em;
+    padding: 1em;
+    font-family: Open Sans, Regular;
+  }
+  .row{
+    margin-left: 1%;
+  }
+  .show-col{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .show-title{
+    font-weight: bold;
+  }
+
+  .show-last{
+    font-weight: bold;
+    color: #F68A25;
+    font-style: italic;
+  }
+  .check-box-name {
+    text-align: center;
+  }
+  .search-result-price, .search-result-review, .search-result-buttons{
+    text-align: center;
+    padding: 2% 0;
+  }
+  .search-result-price, .search-result-review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+.buttons{
+  border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px 0px;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 1rem 3rem;
+    margin: 2em 1em;
+    color: white;
+    font-weight: bold;
+}
+.accept{
+  background-color: var(--pastel-green);
+}
+.reject{
+  background-color: var(--pastel-red);
+}
+.feedback-form{
+  border: 3px solid var(--pastel-red);
+  background-color: var(--light-grey);
+  border-radius: 5px;
+  margin: 5%;
+  margin-bottom: 0;
+}
+.close-button{
+  float: right;
+    margin: 0.2em;
+    color: rgba(112, 112, 112, 0.44);
+    font-size: 1.5em;
+}
+.close-button:hover{
+  cursor:pointer;
+}
+ @media (min-width: 992px){
+  .search-result-review{
+    border-left:1px solid #f68a25;
+}
+}

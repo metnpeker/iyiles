@@ -1,0 +1,99 @@
+.pricingDiv {
+  background-color: #F8F8F8;
+  border : 1px solid #F68A25;
+  border-radius: 11px;
+  padding: 3%;
+  margin-top: 2%;
+  margin-bottom : 2%;
+}
+.pricingRow {
+  margin-top: 1% ;
+}
+.fixed-amb-row {
+  margin-top: 1% ;
+  margin-left: 12%;
+}
+.labelStyle {
+  color : #03002D;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+.pricingForm {
+  background-color: #FFFFFF;
+  border : 1px solid #FFFFFF;
+  padding : 5%;
+  border-radius: 11px;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(3,0,45,0.35);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(3,0,45,0.35);
+  box-shadow: 0px 3px 5px 0px rgba(3,0,45,0.35);
+  text-align: center;
+  color : #707070;
+  font-weight: bold;
+  font-size: 14px;
+}
+.pricingInformation {
+  background-color: #F8EEE4;
+  border : 2px solid #F68A25;
+  border-radius : 11px;
+  color : #06005B;
+  font-size: 10px;
+}
+.priceCalculator {
+  background-color: #F8EEE4;
+  border : 1px solid #F68A25;
+  border-radius: 11px;
+  width: 100%;
+  padding : 1%;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(3,0,45,0.35);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(3,0,45,0.35);
+  box-shadow: 0px 3px 5px 0px rgba(3,0,45,0.35);
+  text-align: center;
+}
+.districtSelectBox {
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(3,0,45,0.35);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(3,0,45,0.35);
+  box-shadow: 0px 3px 5px 0px rgba(3,0,45,0.35);
+  margin: 5%;
+  border : 1px solid FFFFFF;
+  font-weight: bold;
+  color : #03002D;
+}
+.get-distance{
+  background-color: var(--main-orange);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 0.5em 1em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.35);
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.35);
+}
+.get-distance:hover{
+  background-color: rgb(216, 115, 21);; /* Green */
+ color: white ;
+}
+.update-button:hover{
+  background-color: rgb(216, 115, 21);; /* Green */
+ color: white ;
+}
+.update-button {
+  background-color: var(--main-orange);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 0.5em 3em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 50%;
+  margin-top: 8%;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.35);
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.35);
+}

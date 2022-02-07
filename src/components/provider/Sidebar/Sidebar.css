@@ -1,0 +1,71 @@
+.sidebar-wrapper h2,.main-wrapper h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+.border--orange{
+    border: 1px solid var(--main-orange);
+}
+.sidebar-wrapper{
+    width: 25%;
+    background: var(--dark-navy-blue);
+    color: var(--main-orange);
+    text-align: center;
+    float: left;
+    height: 100%;
+    position: sticky;
+    top: 0;
+}
+.sidebar-wrapper .overflow-auto{
+    height: 43vh;
+}
+.single-appointment-container{
+    display: flex;
+    background: #FFFFFF1A;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    align-items: center;
+    margin: 1em;
+}
+.single-appointment-container:hover{
+    cursor: pointer;
+    background: #FFFFFF2F;
+}
+.single-appointment-container div{
+    width: 33%;
+}
+.single-appointment-container div p{
+    margin-bottom: 0;
+    color: #ffffff;
+}
+.single-appointment-container div svg{
+    color: var(--main-orange);
+}
+@-webkit-keyframes blinker {
+ 50% {
+   opacity: 0;
+ }
+}
+.single-appointment-container-not-seen {
+  display: flex;
+  background: var(--main-orange);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  align-items: center;
+  margin: 1em;
+  animation: blinker 1s linear infinite;
+}
+.single-appointment-container-not-seen:hover{
+    cursor: pointer;
+    background: #FFFFFF2F;
+}
+.single-appointment-containe-not-seenr div{
+    width: 33%;
+}
+.single-appointment-container-not-seen div p{
+    margin-bottom: 0;
+    color: #ffffff;
+}
+.single-appointment-container-not-seen div svg{
+    color:  #FFFFFF1A;
+}

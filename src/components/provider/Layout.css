@@ -1,0 +1,51 @@
+:root{
+    --dark-navy-blue: #06005B;
+    --main-orange: #F68A25;
+    --title-blue: #03002D; /*başlıklar için*/
+    --light-grey: #F8F8F8;
+    --pastel-red: #FF6961;
+    --pastel-green: #77DD77;
+    --tan: #F8EEE4;
+    --main-grey: #707070;
+    /*kullanılan renkleri kontrol edip, değişken ismiyle değiştirelim*/
+}
+
+
+body{
+    height: 100%;
+    width: 100%;
+    font-family: Open Sans, Regular;
+}
+.main-row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.main-row {
+  position: relative;
+  height: 100%;
+}
+.main-wrapper{
+
+    width: 75%;
+    float: left;
+    padding: 3rem;
+    margin-bottom: 3%
+}
+.main-wrapper-image{
+      width: 75%;
+      float: left;
+}
+.main-wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/*
+    turuncu border için burada bir class oluşturulabilir.
+    font size gibi ortak olan, diğer class'a çevirilebilecek şeyler varsa belirleyip buraya ekleyebiliriz.
+*/

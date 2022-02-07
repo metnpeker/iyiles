@@ -1,0 +1,36 @@
+.filter-container {
+    margin-top: 10%;
+    border-radius: 11px;
+    border-width: 2px;
+    border: 2px solid #89F5FF;
+    background: #89F5FF;
+    padding-top:3%;
+    padding-bottom: 3%;
+    text-align: center;
+  }
+.option-handler{
+  border: 2px solid #F68A25;
+  font-family: Open sans, serif;
+  width: 60%;
+  margin-left: 20%;
+  border-radius: 10px;
+}
+.header-collapse{
+  font-weight: bold;
+  font-size: 15px;
+  font-family: Open sans,serif;
+  margin-top: 7%;
+}
+.form-style{
+ font-size: 20px;
+ font-family: Open sans,serif;
+ font-weight: bold;
+ margin-top: 10%;
+}
+.font-button {
+  background-color: #F68A25;
+  border: 2px solid #F68A25;
+  padding-right: 7%;
+  padding-left: 7%;
+  margin-top: 28%;
+}

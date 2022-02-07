@@ -1,0 +1,63 @@
+.btn-primary {
+background-color: white;
+color: #CCCCCC;
+font-family: Open sans, sans-serif;
+border: 2px solid #F68A25;
+
+}
+.show>.btn-primary.dropdown-toggle {
+background-color: #F68A25;
+
+}
+.show dropdown {
+  background-color: #F68A25;
+}
+.checkoutContainer {
+  width: 90%;
+  border-radius: 18px;
+  border-width: 1px;
+  border-color: #707070;
+  box-shadow: 0px 0px 5px #707070;
+  border-style: solid;
+  background-color: white;
+  margin-top : 5%;
+}
+
+.checkoutDetailRow {
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+.checkContainer {
+  width: 90%;
+  border-radius: 18px;
+  border-width: 1px;
+  border-color: #89F5FF;
+  box-shadow: 0px 0px 5px #89F5FF;
+  border-style: solid;
+  background-color: #F8F8F8;
+  margin-top : 5%;
+}
+
+.checkDetailRow {
+  justify-content: center;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.btn-secondary {
+  background-color: #F68A25;
+  border-color:#F68A25;
+  box-shadow: 0px 0px 3px #000000;
+  font-family: Open sans, sans-serif;
+  font-weight: bold;
+}
+.card-year{
+  margin-top: 2em;
+}
+.card-date{
+  display: flex;
+  align-items: flex-end;
+}

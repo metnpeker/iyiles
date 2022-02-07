@@ -1,0 +1,23 @@
+.react-rater {
+  display: inline-block;
+  line-height: normal; }
+  .react-rater > * {
+    display: inline-block; }
+
+.react-rater-star {
+  cursor: pointer;
+  color: #f2b01e77;
+  position: relative; }
+  .react-rater-star.will-be-active {
+    color:  #e79435; }
+  .react-rater-star.is-active {
+    color:  #F68A25; }
+  .react-rater-star.is-active-half:before {
+    color: #ff5100;
+    content: '\2605';
+    position: absolute;
+    left: 0;
+    width: 50%;
+    overflow: hidden; }
+  .react-rater-star.is-disabled {
+    cursor:  #f8f8f8; }

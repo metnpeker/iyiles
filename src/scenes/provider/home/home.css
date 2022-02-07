@@ -1,0 +1,10 @@
+.appointment-header{
+    display: inline-block;
+}
+
+.appointment-header h2:first-of-type{
+    color: var(--dark-navy-blue);
+}
+.appointment-header h2:last-of-type{
+    color: var(--main-orange);
+}

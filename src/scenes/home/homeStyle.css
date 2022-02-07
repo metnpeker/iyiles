@@ -1,0 +1,303 @@
+/* layout */
+ .main-info,.main-info-detailed div{
+    margin: 0 auto;
+    width: 80%;
+}
+/*header styling*/
+.header {
+    position: absolute;
+    margin-left: 10%;
+    width: 80%;
+  }
+  .header .logo {
+    float: left;
+    padding: 1em 0.5em;
+  }
+
+  .header nav {
+    float: right;
+    margin: 0 1em;
+  }
+  .header nav Button{
+    margin-top: 1em;
+    margin-left: 1em;
+  }
+
+  .button--register{
+    background-color: #F68A25;
+    color: #ffffff;
+    border: none; /*overrides default border of bootstrap*/
+  }
+
+  .button--register:hover{
+    background-color: rgb(235, 126, 1);
+  }
+  /*hero styling*/
+
+.main-hero {
+    background-image: url(img/hero-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 12em 0;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #838383;
+
+  }
+@media only screen and (max-width : 600px) {
+  .main-hero h1{
+    margin-top: 50px;
+
+    }
+}
+.button-cta{
+    background-color: #F68A25;
+    color: #ffffff;
+    border: none; /*overrides default border of bootstrap*/
+    padding: 0.5em 5em;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(235, 126, 1);
+}
+.button-cta--tab{
+  background-color: white;
+  color: #707070;
+  border: none; /*overrides default border of bootstrap*/
+  padding: 0.5em 5em;
+  font-weight: bold;
+  border-bottom: 1px solid rgb(235, 126, 1);
+  float:right;
+  white-space: nowrap;
+  padding: 5px 20px;
+  bottom: 0;
+  align-self: center;
+}
+.button-cta:hover{
+  background-color: rgb(235, 126, 1);
+  color: #ffffff;
+  border: 1px solid rgb(235, 126, 1);
+}
+
+/*steps styling*/
+.main-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 5em;
+    margin-top: -80px;
+  }
+
+  .main-info p{
+    font-size: 20px;
+    margin: 0px 10px;
+    line-height: 1.5em;
+    font-family: 'Open', sans-serif;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+
+  .main-info div {
+    -ms-flex-preferred-size: 200px;
+    flex-basis: 200px;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    -webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ffffff;
+    color: #707070;
+    box-shadow: 0px 0px 10px 0px #89F5FF;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+  }
+
+  @media (max-width: 500px) {
+    .main-info {
+      display: block;
+      margin-top: -100px;
+    }
+    .main-info div{
+        margin: 10px 15%;
+        width: 70%;
+    }
+  }
+
+  @media(min-width: 992px){
+    .main-info {
+      flex-wrap: nowrap;
+    }
+  }
+
+  /*steps info styling*/
+  .main-info-detailed {
+  background: #f8f8f8;
+
+}
+
+.main-info-detailed div{
+
+    padding: 10px 5px;
+    height: auto;
+    text-align: center;
+}
+.main-info-right i{
+    background: #ffffff;
+    width: 150px;
+    height: 150px;
+    padding: 40px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+
+    margin-left: 0.5em;
+}
+
+.main-info-left i{
+    background: #ffffff;
+    width: 150px;
+    height: 150px;
+    padding: 40px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    margin-right: 0.5em;
+}
+
+
+@media (max-width: 500px) {
+  .main-info-detailed .row {
+    display: block;
+  }
+}
+/*********** tabs styling but the button inside the tab is near button-cta***********/
+.tab-content{
+  height: 100%;
+}
+.tab-wrapper{
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.tab-content-col{
+  padding-left: 0;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.25);
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+.tab-nav-col{
+  padding-right: 0;
+}
+
+.tab-pane{
+  display: flex;
+}
+.tab-content>.active {
+  display: flex;
+}
+.nav-pills .nav-link.active{
+  color: #F68A25;
+  background-color: white;
+  box-shadow: 10px 2px 5px 0px rgba(0,0,0,0.25), -5px 6px 8px -5px rgba(0,0,0,0.15);
+  overflow: hidden;
+  border: none;
+  margin-top: 0;
+}
+.nav-link{
+  color: #00000080;
+  text-align: center;
+  border: 3px solid #f8f8f8;
+  margin: 0.5em;
+}
+
+.nav-link.active::after{
+    content:"";
+    font-size:0;
+    color:transparent;
+    width:15%;
+    margin-top: -8px;
+    position: absolute;
+    right: -10px;
+    vertical-align: middle;
+    height: 40px;
+    background: #fff;
+    z-index:2;
+}
+.sonnet{
+  margin: 20px 25px;
+  width: 70%;
+  text-align: center;
+  margin-top: 7%;
+}
+@media (max-width: 500px) {
+  .nav-link.active::after{
+    content: none;
+}
+.nav-pills .nav-link.active{
+  color: #F68A25;
+  background-color: white;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.15);
+  overflow: hidden;
+  border: none;
+  margin-top: 0;
+}
+.tab-nav-col{
+  padding-right: 0.5em
+}
+}
+@media (max-width: 900px) {
+  .tab-content>.active {
+    display: block;
+  }
+  .sonnet{
+    width: auto;
+  }
+  .button-cta--tab{
+    margin: 10px;
+  }
+}
+
+
+/*********** carousel styling*******/
+.carousel-wrapper{
+  width: 80%;
+  padding-top: 30px;
+  border-radius: 100px;
+  margin: 0 auto;
+}
+@media (max-width: 700px) {
+  .carousel-wrapper{
+    width: 80%;
+  }
+}
+.owl-prev {
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  margin-left: -30px;
+  display: block !important;
+
+}
+
+.owl-next {
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  right: -30px;
+  display: block !important;
+}
+
+.owl-next i, .owl-prev i {
+  color: rgb(119, 119, 119);
+}
+.owl-next:focus, .owl-prev:focus {
+  outline: none;
+}

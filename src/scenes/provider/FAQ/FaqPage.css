@@ -1,0 +1,35 @@
+.accordion-header {
+  font-size:16px;
+  font-family:Open Sans, Regular;
+  font-weight:bold;
+  color:#03002D;
+}
+.accordion-back{
+background-color: #FFFFFF;
+border: 2px solid #F68A25;
+width: 100%
+}
+.accordion-body{
+  font-size:16px;
+  font-family:Open Sans, Regular;
+}
+
+.accordion>.card {
+  margin-top: 20px;
+  border-radius: 11px;
+}
+.title-col{
+  color:#03002D;
+  font-size: 22px;
+  font-family: Open Sans, Regular;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 10%;
+}
+.main-container{
+
+ width: 100%;
+ margin-bottom : 10%;
+
+
+}

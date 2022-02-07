@@ -1,0 +1,51 @@
+.stationContainer {
+  border : 1px solid var(--main-orange);
+  border-radius: 11px;
+  background-color: #F8F8F8;
+  margin-top: 5%;
+  width: 100%;
+  margin-bottom: 2%;
+}
+.stationTitle {
+  color : var(--main-orange);
+  font-size: 25px;
+  padding : 2%;
+  font-family: Open Sans;
+  font-weight:  bold;
+}
+.stationLabel {
+    font-family: Open Sans, bold;
+    color : var(--title-blue);
+    font-size: 14px;
+    font-weight:  bold;
+
+}
+.stationForm {
+    color : var(--main-grey);
+    font-size: 12px;
+    border: 1px solid var(--main-grey);
+    border-radius: 11px;
+
+}
+.orangeButton {
+  background-color: var(--main-orange);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 3% auto;
+  font-weight: bold;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.35);
+-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.35);
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.35);
+}
+.orangeButton:hover {
+  background-color: var(--main-orange); /* Green */
+ color: white ;
+}
+.form-row.stationRow{
+  margin-bottom:1em;
+}

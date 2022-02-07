@@ -1,0 +1,63 @@
+.wrapper{
+  border: 2px solid #F68A25;
+  box-shadow: 0px 0px 0px;
+}
+
+.information-second-detail-row{
+  justify-content: center;
+  margin-top: 20px;
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-bottom: -25px;
+}
+
+
+
+.classic_theme_container .classic_time.light.active,
+.classic_theme_container .classic_time.light:hover {
+  background-color: #F68A25;
+  color: #fff;
+}
+
+.patientContainer {
+  width: 90%;
+  border-radius: 18px;
+  border-width: 2px;
+  border-color: #F68A25;
+  border-style: solid;
+  background-color: #F8F8F8;
+  margin-top : 10%;
+  margin-bottom: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+
+.patientDetailRow {
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+.btn-success {
+border: 2px solid #F68A25;
+color: #CCCCCC;
+background-color: #FFFFFF;
+
+}
+
+.show>.btn-success.dropdown-toggle {
+  border: 2px solid #F68A25;
+  color: #CCCCCC;
+  background-color: #FFFFFF;
+}
+
+.patient-info-second-col, .patient-info-third-col{
+  margin-top: 50px;
+}
+
+@media (max-width:765px) {
+  .patient-info-second-col,.patient-info-third-col {
+    margin-top: 10px;
+  }
+}
+

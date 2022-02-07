@@ -1,0 +1,61 @@
+.rate-container{
+  border: 2px solid var(--light-grey);
+  background-color: var(--light-grey);
+}
+.comment-container{
+  border: 2px solid var(--main-orange);
+  border-radius: 11px;
+  background-color: #FFFFFF;
+  padding-top: 0.5em;
+  margin-top: 2%
+}
+.name-circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  text-align : center;
+  background-color:var(--main-orange);
+  color: white;
+  line-height: 50px;
+}
+.rating-row{
+  text-align: center;
+}
+ .rate-title{
+   font-family: Open Sans, Regular;
+   font-size: 16px;
+   font-weight: bold;
+   color: var(--main-grey);
+ }
+ .rate-avarage{
+   color: var(--main-orange);
+   font-size: 16px;
+   font-family: Open Sans, Regular;
+   font-weight: bold;
+ }
+ .big-title{
+   font-size: 16px;
+   color: var(--title-blue);
+   font-family: Open Sans, Regular;
+   font-weight: bold;
+   text-align: left;
+ }
+ .comment-text{
+   text-align: center;
+   color: var(--title-blue);
+   font-size: 14px;
+   font-family: Open Sans, Regular;
+ }
+ .comments-pagination{
+   margin: 1em auto;
+   width: fit-content;
+ }
+ .page-link{
+   border: none;
+   background: var(--light-grey) ;
+   color: var(--title-blue);
+ }
+ .page-item.active .page-link{
+  background: var(--title-blue);
+  color: white;
+ }
